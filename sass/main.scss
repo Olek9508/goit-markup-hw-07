@@ -4,10 +4,10 @@
 @import './base/reset';
 @import './base/common';
 
+@import './components/contacts';
 @import './components/container';
+@import './components/logo-title';
 @import './components/modal';
-@import './components/header-logo';
-@import './components/footer-logo';
 
 @import './layout/header';
 @import './layout/hero';

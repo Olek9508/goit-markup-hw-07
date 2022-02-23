@@ -12,69 +12,6 @@
   align-items: baseline;
 }
 
-
-.footer-contacts {
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-}
-
-.footer-map {
-  color: var(--hero-text-color);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  margin-bottom: 9px;
-  display: block;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-map:hover,
-.footer-map:focus {
-  color: var(--ineractive-color);
-  outline: none;
-}
-
-.footer-email {
-  color: var(--footer-text-color);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  margin-bottom: 9px;
-  display: block;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-email:hover,
-.footer-email:focus {
-  color: var(--ineractive-color);
-  outline: none;
-}
-
-.footer-tel {
-  color: var(--footer-text-color);
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  display: block;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-tel:hover,
-.footer-tel:focus {
-  color: var(--ineractive-color);
-  outline: none;
-}
-
 .footer-join-us {
   font-weight: 700;
   font-style: normal;
@@ -112,14 +49,13 @@
   transition-property: color, background-color, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--ineractive-color);
-  border-color: var(--ineractive-color);
-  color: var(--hero-text-color);
-  outline: none;
+  &:hover,
+  &:focus {
+    background-color: var(--ineractive-color);
+    border-color: var(--ineractive-color);
+    color: var(--hero-text-color);
+    outline: none;
+  }
 }
 
 .footer-social-icon {
@@ -156,10 +92,9 @@
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-}
-
-.mail-footer:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 .footer-btn {
@@ -182,12 +117,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-btn:hover,
-.footer-btn:focus {
-  background-color: var(--hero-button-ineractive-color);
-  outline: none;
+  &:hover,
+  &:focus {
+    background-color: var(--hero-button-ineractive-color);
+    outline: none;
+  }
 }
 
 .footer-icon-send {
