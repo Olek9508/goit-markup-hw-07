@@ -575,7 +575,7 @@ body {
   margin-right: auto;
 }
 
-.header-container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

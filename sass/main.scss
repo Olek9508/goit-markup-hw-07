@@ -4,9 +4,11 @@
 @import './base/reset';
 @import './base/common';
 
-@import './components/contacts';
+@import './components/header-contacts';
+@import './components/footer-contacts';
 @import './components/container';
-@import './components/logo-title';
+@import './components/header-logo-title';
+@import './components/footer-logo-title';
 @import './components/modal';
 
 @import './layout/header';
