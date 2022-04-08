@@ -1,4 +1,4 @@
-.mail {
+.adress__mail {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -19,7 +19,7 @@
   }
 }
 
-.phone {
+.adress__phone {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -40,7 +40,7 @@
   }
 }
 
-.nav-contact-icon {
+.adress__icon {
   display: flex;
   fill: currentColor;
   &:hover,

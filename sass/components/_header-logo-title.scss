@@ -1,4 +1,4 @@
-.nav-title {
+.navigation__title {
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   color: var(--ineractive-color);
@@ -10,7 +10,7 @@
   padding-bottom: 25px;
 }
 
-.nav-logo {
+.navigation__logo--black-color {
   font-family: 'Raleway', sans-serif;
   color: var(--active-color);
   font-weight: 700;
@@ -18,3 +18,4 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+

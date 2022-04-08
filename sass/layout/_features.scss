@@ -2,18 +2,18 @@
   padding-top: 94px;
 }
 
-.section-list {
+.features-list {
   display: flex;
   text-align: left;
   margin-left: -30px;
 }
 
-.section-item {
+.features-list__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
-.section-title {
+.features-list__title {
   color: var(--active-color);
   font-weight: 700;
   font-size: 14px;
@@ -23,14 +23,14 @@
   margin-bottom: 10px;
 }
 
-.section-point {
+.features-list__text {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.section-group {
+.features-list__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,3 +40,4 @@
   height: 120px;
   border-radius: 4px;
 }
+

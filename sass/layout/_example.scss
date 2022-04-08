@@ -1,4 +1,4 @@
-.example {
+.example-list {
   display: flex;
   text-align: left;
   margin-left: -30px;
@@ -6,10 +6,11 @@
   flex-wrap: wrap;
 }
 
-.card-link {
+.example-list__link {
   display: block;
   text-decoration: none;
   outline: none;
+
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -17,12 +18,12 @@
   }
 }
 
-.example-image {
+.example-list__image {
   position: relative;
   overflow: hidden;
 }
 
-.example-animation {
+.example-list__animation {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -33,13 +34,14 @@
   transition-property: transform, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .card-link:hover &,
-  .card-link:focus & {
+
+  .example-list__link:hover &,
+  .example-list-link:focus & {
     transform: translateY(0);
   }
 }
 
-.example-animation-text {
+.example-list__animation-text {
   position: absolute;
   width: 322px;
   height: 168px;
@@ -52,13 +54,14 @@
   color: #ffffff;
 }
 
-.example-item {
+.example-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -66,14 +69,14 @@
   }
 }
 
-.example-description {
+.example-list__description {
   padding: 20px 24px;
   border-bottom: 1px solid var(--border-portfolio-color);
   border-left: 1px solid var(--border-portfolio-color);
   border-right: 1px solid var(--border-portfolio-color);
 }
 
-.example-title {
+.example-list__title {
   color: var(--primary-color-text);
   font-style: 700;
   font-size: 18px;
@@ -82,7 +85,7 @@
   margin-bottom: 4px;
 }
 
-.example-text {
+.example-list__text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;

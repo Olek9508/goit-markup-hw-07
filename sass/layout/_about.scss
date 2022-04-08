@@ -1,8 +1,8 @@
-.decor-item {
+.about-list__decor-item {
   position: relative;
 }
 
-.box-description {
+.description {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -14,7 +14,7 @@
   );
 }
 
-.box-text-one {
+.description__text-one {
   position: absolute;
   bottom: 27px;
   left: 82px;
@@ -27,7 +27,7 @@
   text-transform: uppercase;
 }
 
-.box-text-two {
+.description__text-two {
   position: absolute;
   bottom: 27px;
   left: 85px;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.box-text-three {
+.description__text-three {
   position: absolute;
   bottom: 27px;
   left: 90px;
@@ -58,13 +58,13 @@
   margin-left: -30px;
 }
 
-.about-item {
+.about-list__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.about-us,
-.our-team {
+.about-us__title,
+.our-team__title {
   color: var(--primary-color-text);
   font-weight: 700;
   font-size: 36px;
@@ -73,3 +73,5 @@
   margin-bottom: 50px;
   text-align: center;
 }
+
+

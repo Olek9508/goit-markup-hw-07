@@ -10,11 +10,11 @@
   margin-bottom: 50px;
 }
 
-.button-item + .button-item {
+.buttons-list__item + .buttons-list__item {
   margin-left: 8px;
 }
 
-.buttons-portfolio {
+.buttons-list__btn {
   color: var(--primary-color-text);
   background-color: var(--portfolio-colors);
   font-family: inherit;
@@ -39,3 +39,4 @@
     outline: none;
   }
 }
+

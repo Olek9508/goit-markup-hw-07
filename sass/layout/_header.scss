@@ -10,25 +10,25 @@
   align-items: center;
 }
 
-.nav {
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.site-nav-list {
+.nav {
   display: flex;
   margin-left: 93px;
 }
 
-.nav-item + .nav-item {
+.nav__item + .nav__item {
   margin-left: 50px;
 }
 
-.link {
+.nav__link {
   position: relative;
 }
 
-.link {
+.nav__link {
   color: var(--active-color);
   font-weight: 500;
   font-size: 14px;
@@ -74,6 +74,6 @@
   margin-left: auto;
 }
 
-.adress-item + .adress-item {
+.adress__item + .adress__item {
   margin-left: 30px;
 }
